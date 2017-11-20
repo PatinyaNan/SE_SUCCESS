@@ -7,7 +7,7 @@ class RegisterTest extends PHPUnit_Framework_TestCase {
 	}
 
 	function testLoginPass() {
-		$name = "";
+		$name = "demo";
 		$surname = "ok";
 		$email = "mm@gmail.com";
 		$tel = "0823151897";
