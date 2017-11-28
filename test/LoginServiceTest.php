@@ -7,7 +7,7 @@ class LoginServiceTest extends PHPUnit_Framework_TestCase {
 	} 
 
 	function testLoginPass() {
-		$username = "demo";
+		$username = ;
 		$password = "ok";
 		$actualResult = $this->loginService->checkUser($username, $password);
 		$this->assertTrue($actualResult);
